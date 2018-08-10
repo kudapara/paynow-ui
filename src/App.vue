@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav class="nav">
-      <a href="/" class="brand">KayPay</a>
+      <router-link class="brand">KayPay</router-link>
       <div>
         <router-link to="/transactions">Transactions</router-link>
       </div>
